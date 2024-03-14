@@ -28,23 +28,35 @@
   color: #61dafb;
 }
 
-#inputGroupSelect03 {
-  background-color: green;
-  color: white;
-  padding: 10px;
-  border: none;
-  z-index: 2;
+#dropdown-basic-button {
+  background-color: #96e29d !important;
+  color: white !important;
+  padding: 10px !important;
+  border: none !important;
+  margin: 0px !important;
 }
 
-select option {
-  background-color: green;
-  color: white;
+#dropdown-basic-button+div {
+  background-color: #96e29d !important;
+  color: white !important;
+  margin: 0px !important;
 }
 
-select option:checked {
-  background-color: white;
-  color: black;
+.my-item {
+  background-color: #96e29d !important;
+  color: black !important;
+  padding: 10px !important;
+  border: none !important;
+  margin: 0px !important;
+  width: auto !important;
 }
+
+.my-item:hover {
+  background-color: white !important;
+  color: black !important;
+  width: auto !important;
+}
+
 
 @keyframes App-logo-spin {
   from {
